@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_RauQML9KEe2CNe9l_y5Q5g" label="Amalyse" description="" language="java" technicalLabel="AMALYSE" local="true" author="_RauQMb9KEe2CNe9l_y5Q5g" productVersion="Talend Open Studio for Data Integration-8.0.1.20211109_1610" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_RazKWb9KEe2CNe9l_y5Q5g" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_RauQMb9KEe2CNe9l_y5Q5g" login="user@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>

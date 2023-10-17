@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_xQ2e0b9LEe2CNe9l_y5Q5g" name="AmazonSaleReport" id="_xQ2e0L9LEe2CNe9l_y5Q5g" dataPackage="_xQ2e0r9LEe2CNe9l_y5Q5g" Server="Localhost 127.0.0.1" FilePath="C:/Users/ASUS/Desktop/Clean/Amazon Sale Report 3 (1).csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_xQ2e0r9LEe2CNe9l_y5Q5g" name="default" dataManager="_xQ2e0b9LEe2CNe9l_y5Q5g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_xQ2e079LEe2CNe9l_y5Q5g" id="_fRpHQL9LEe2CNe9l_y5Q5g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e1L9LEe2CNe9l_y5Q5g" label="index" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e1b9LEe2CNe9l_y5Q5g" label="Order_ID" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e1r9LEe2CNe9l_y5Q5g" label="Date" length="-1" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e179LEe2CNe9l_y5Q5g" label="Status" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e2L9LEe2CNe9l_y5Q5g" label="Fulfilment" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e2b9LEe2CNe9l_y5Q5g" label="Sales_Channel" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e2r9LEe2CNe9l_y5Q5g" label="ship_service_level" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e279LEe2CNe9l_y5Q5g" label="Style" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e3L9LEe2CNe9l_y5Q5g" label="SKU" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e3b9LEe2CNe9l_y5Q5g" label="Category" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e3r9LEe2CNe9l_y5Q5g" label="Size" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e379LEe2CNe9l_y5Q5g" label="ASIN" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e4L9LEe2CNe9l_y5Q5g" label="Courier_Status" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e4b9LEe2CNe9l_y5Q5g" label="Qty" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e4r9LEe2CNe9l_y5Q5g" label="currency" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e479LEe2CNe9l_y5Q5g" label="Amount" length="6" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e5L9LEe2CNe9l_y5Q5g" label="ship_city" length="39" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e5b9LEe2CNe9l_y5Q5g" label="ship_state" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e5r9LEe2CNe9l_y5Q5g" label="ship_postal_code" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e579LEe2CNe9l_y5Q5g" label="ship_country" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e6L9LEe2CNe9l_y5Q5g" label="promotion_ids" length="1706" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e6b9LEe2CNe9l_y5Q5g" label="B2B" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xQ2e6r9LEe2CNe9l_y5Q5g" label="fulfilled_by" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

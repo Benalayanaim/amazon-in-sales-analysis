@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_2rm_ocABEe2r1sfxCgc5Pg" name="March" dataPackage="_2rnmsMABEe2r1sfxCgc5Pg" Server="Localhost 127.0.0.1" FilePath="C:/Users/ASUS/Desktop/Clean/P L March 2021.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_2rnmsMABEe2r1sfxCgc5Pg" name="default" dataManager="_2rm_ocABEe2r1sfxCgc5Pg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_2rnmscABEe2r1sfxCgc5Pg" id="_o1p8cMABEe2r1sfxCgc5Pg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmssABEe2r1sfxCgc5Pg" label="index" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnms8ABEe2r1sfxCgc5Pg" label="Sku" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmtMABEe2r1sfxCgc5Pg" label="Style_Id" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmtcABEe2r1sfxCgc5Pg" label="Catalog" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmtsABEe2r1sfxCgc5Pg" label="Category" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmt8ABEe2r1sfxCgc5Pg" label="Weight" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmuMABEe2r1sfxCgc5Pg" label="TP_1" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmucABEe2r1sfxCgc5Pg" label="TP_2" length="6" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmusABEe2r1sfxCgc5Pg" label="MRP_Old" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmu8ABEe2r1sfxCgc5Pg" label="Final_MRP_Old" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmvMABEe2r1sfxCgc5Pg" label="Ajio_MRP" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmvcABEe2r1sfxCgc5Pg" label="Amazon_MRP" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmvsABEe2r1sfxCgc5Pg" label="Amazon_FBA_MRP" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmv8ABEe2r1sfxCgc5Pg" label="Flipkart_MRP" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmwMABEe2r1sfxCgc5Pg" label="Limeroad_MRP" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmwcABEe2r1sfxCgc5Pg" label="Myntra_MRP" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmwsABEe2r1sfxCgc5Pg" label="Paytm_MRP" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2rnmw8ABEe2r1sfxCgc5Pg" label="Snapdeal_MRP" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
