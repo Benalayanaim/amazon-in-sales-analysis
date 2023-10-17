@@ -5,7 +5,7 @@ a business analysis initiative aimed at understanding and optimizing Amazon's sa
 ![pb](https://github.com/Benalayanaim/amazon-in-sales-analysis/assets/98695786/6cde82e2-2bd9-4e17-b67e-b50e447c49da)
 
 # Data Warehouse
--i' chose the  snowflake schema for several reasons in our data modeling process. The
+-We chose the  snowflake schema for several reasons in our data modeling process. The
 
 snowflake schema is a variant of the star schema that offers additional normalization of
 
